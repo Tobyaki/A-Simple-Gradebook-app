@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-image: url("academics.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #500001;
+  color: white;
+  height: 80px;
+}
+
+header h1 {
+  position: relative;
+  top: 20px;
+}
+
+.text {
+  text-align: center;
+  margin: 120px;
+  border: 20px;
+  color: white;
+  font-weight: 50px;
+  font-size: 25px;
+}
+
+.direction {
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+  background-color: #500001;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.direction p {
+  color: white;
+}
