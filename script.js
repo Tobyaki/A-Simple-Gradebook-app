@@ -22,9 +22,9 @@ const interns = [
 ];
 
 const averageScores = (student) => {
-  let scores = Object.values(student.scores);
-  let totalScores = scores.reduce((sum, score) => sum + score, 0);
-  return totalScores / scores.length;
+  let scores = Object.values(student.scores)
+  let totalScores = scores.reduce((sum, score) => sum + score, 0)
+  return totalScores / scores.length
 };
 
 interns.forEach((student) => {
